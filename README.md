@@ -1,13 +1,13 @@
 
-# Mobile app testing automation with Appium and Android Studio.
+## Mobile app testing automation with Appium and Android Studio.
 
 
-# This document provides information on how to run the project and the stack requirements for running it.
+## This document provides information on how to run the project and the stack requirements for running it.
 
 
-## Technology stack.
+### Technology stack.
 
-### The environments I worked on for test automation of mobile app testing are:
+#### The environments I worked on for test automation of mobile app testing are:
 
 | no        |      Platform / Tool / Software      | Version / Measure  |
 | ------------- |:-------------:| -----:|
@@ -20,14 +20,14 @@
 | 7	    |Mobile Emulator - Pixel 2 XL API 25	                 |Android Version(Android 7.1.1,API 25).
  
  
-### Step to Step instructions for How to execute the " Mobile Testing automation script". 
+#### Step to Step instructions for How to execute the " Mobile Testing automation script". 
 
  Step 1: Manually create virtual device or emulator in android studio.
  Step 2: launch and Start Appium.
  Step 3: Launch emulator & execute test script.
  
  
-### Steps to start mobile emulator or Android Virtual Device.
+#### Steps to start mobile emulator or Android Virtual Device.
 
 Open android studio.
 Open your project.
@@ -38,7 +38,7 @@ Open command prompt and give following command c:\{folderpath} adb devices.
 You should be seeing one virtual device running along with the port, which means the emulator had successfully started.
 
 
-### Step to execute test script.
+#### Step to execute test script.
 
 Select the project view in android studio
 Right click on the java file or double click the java file node, and on the right side of the android studio editor right click to open the context menu and select the menu option Run {TestClass.java}
